@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:  sans-serif;
+}
+.main{
+/*	margin: auto;
+	width: 1150px;*/
+	overflow: hidden;
+	background-color: #fcdb00;
+}
+.container{
+	width: 1100px;
+	height: 100px;
+	margin: auto;
+	padding: 34px 0;
+	display: flex;
+}
+.logo{
+	margin: auto;
+	width: auto;
+	float: left;
+}
+.logo img{
+	cursor: pointer;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin: auto;
+	display:  inline-block;
+	text-align: center;
+	color: #333;
+}
+.menu ul{
+	
+}
+.menu ul li{
+	padding: 0 10px;
+	color: #565656;
+	line-height: 40px;
+	margin: 0px 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+.menu ul li:hover{
+	border: 1px solid #333;
+	border-radius: 30px;
+}
+.menu ul li a{
+	font-weight: 700;
+	color: #333;
+	list-style-type: none;
+	text-decoration: none;
+}
+.banner{
+	padding: 50px 0;
+	display: flex;
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.banner1{
+	width: 500px;
+	/* padding: 0 0 0 30px; */
+	float: left;
+}
+.banner2{
+	padding: 0px 0 0 130px;
+	width: 500px;
+	float: right;
+}
+.banner1 h1{
+	color: #000;
+	margin: 30px 0;
+}
+.banner1 h2{
+	color:  #333;
+	margin-bottom: 30px;
+}
+.banner1 p{
+	color: #333;
+}
+.aboutus{
+	width: 1000px;
+	margin: 80px auto;
+}
+.ourheading h1{
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 20px;
+	text-transform: capitalize;
+}
+.ourheading p{
+	font-size:  16px;
+	text-align: c
+}
+.dad{
+	width:1000px;
+	margin: auto;
+}
+.control1{
+	display: flex;
+	padding: 20px 0;
+}
+.control1 content{
+	display: flex;
+}
+.box1{
+	display: flex;
+	padding: 10px;
+}
+.control1 h2{
+	color: #333;
+	text-transform: capitalize;
+}
+.control1 p{
+	padding-top: 10px;
+	display: flex;
+	color: #333;
+}
+.control2{
+	display: flex;
+	padding: 20px 0;
+}
+.control2 content{
+	display: flex;
+}
+.control2 h2{
+	color: #333;
+	text-transform: capitalize;
+}
+.control2 p{
+	padding-top: 10px;
+	display: flex;
+	color: #333;
+}
+.footerbg{
+	overflow: hidden;
+	background-color: #010101;
+}
+.fplace{
+	width: 1000px;
+	margin: auto;
+
+}.topoffooter{
+	text-align: center;
+	display: block;
+	padding: 30px 0;
+}
+.topoffooter h1{
+	color: #fcdb00;
+	text-transform: capitalize;
+}
+.topoffooter p{
+	color: #fff;
+	padding-top: 20px;
+}
+.searchbar  input{
+	width: 70%;
+	font-size: 16px;
+	border: 0;
+	background-color: gray;
+	box-sizing: border-box;
+	padding: 12px 20px;
+}
+.searchbar input [type="submit"]{
+	width: 10%;
+	box-sizing: border-box;
+	background-color: #fcdb00;
+	color: #333;
+	text-transform: uppercase;
+	float: right;
+}
